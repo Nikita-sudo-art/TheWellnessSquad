@@ -1,0 +1,455 @@
+/* Button Styles */
+.nav-buttons li a {
+    text-decoration: none;
+    color: rgb(84, 15, 15);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #aba370db; /* Original background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #A98467; /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #904b4b; /* Header color */
+}
+
+.nav-buttons li {
+    margin-left: 20px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(76, 15, 15);
+    font-size: 18px;
+}
+
+.logo {
+    height: 40px; /* Adjust according to your logo's size */
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #ADC178;
+    color: rgb(93, 23, 23);
+    padding: 100px;
+    padding-left: 40px;
+    width: 45%; /* Make the boxes take up 45% of the width */
+    border-radius: 10px;
+}
+
+.mission {
+    background-color: #a9be63b1;
+}
+
+.vision {
+    background-color: #9cb058b1;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    color: rgb(82, 23, 23);
+    margin-top: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.more-info p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Scroll effect: Change background color when scrolling */
+body {
+    background-color: #ADC178;
+    transition: background-color 0.5s ease;
+}
+
+
+/* Reuse from previous styles */
+
+/* Event Box Styling */
+.event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.event-box {
+    background-color: #ADC178;
+    color: rgb(107, 28, 28);
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.event-box:hover {
+    opacity: 1;
+}
+
+.future-prospect {
+    text-align: center;
+    color: rgb(85, 14, 14);
+    margin-top: 40px;
+}
+
+.future-prospect h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.future-prospect p {
+    font-size: 18px;
+}
+
+/* On scroll effect */
+body {
+    background-color: #ADC178;
+    transition: background-color 0.5s ease;
+}
+
+.event-box {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.event-box.blurred {
+    opacity: 0.3;
+}
+
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 blocks */
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 250px;
+    background-color: #bc4749b7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #BC4749;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(91, 22, 22);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+}
+
+/* Reuse from previous styles */
+
+/* Event Box Styling */
+.event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.event-box {
+    background-color: #bc474999;
+    color: rgb(88, 30, 30);
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.event-box:hover {
+    opacity: 1;
+}
+
+.future-prospect {
+    text-align: center;
+    color: rgb(84, 17, 17);
+    margin-top: 40px;
+}
+
+.future-prospect h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.future-prospect p {
+    font-size: 18px;
+}
+
+/* On scroll effect */
+body {
+    background-color: #57A7C9;
+    transition: background-color 0.5s ease;
+}
+
+.event-box {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.event-box.blurred {
+    opacity: 0.3;
+}
+/* Global Styles */
+body {
+    font-family: 'Garamond';
+    background-color: #6A994E;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #57A7C9;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-buttons {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-buttons li {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Anti-Bullying Squad Intro Section */
+.intro {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #bc4749a8;
+    color: rgb(83, 15, 15);
+    border-radius: 8px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.intro h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+/* Mission and Vision Section */
+#mission-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40%;
+    margin-bottom: 40px;
+    padding: 50px;
+}
+
+#mission h3,#vision h3 {
+    font-size: 24px;
+    color: rgb(82, 13, 13);
+    justify-content: space-between;
+    
+}
+
+#mission p, #vision p {
+    color: rgb(63, 8, 8);
+}
+#mission {
+    background-color: #b1c867b1;
+}
+
+#vision {
+    background-color: #9cb058b1;
+}
+
+/* Future Projects Section */
+.future-projects {
+    background-color: #6A994E;
+    margin-top: 40px;
+    padding: 20px;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.future-projects h3 {
+    font-size: 24px;
+    color: rgb(71, 10, 10);
+}
+
+.future-projects p {
+    color: rgb(77, 15, 15);
+}
+
+/* Global Styles */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #6A994E;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #51885b;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-buttons {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-buttons li {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(76, 13, 13);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contact Us Section */
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logo-big {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    background-color: #3b815ac4;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.contact-details h2 {
+    font-size: 28px;
+    color: rgb(71, 13, 13);
+}
+
+.contact-details p {
+    color: rgb(69, 13, 13);
+}
+
+.centered-header {
+    text-align: center; /* Centers the text horizontally */
+    margin: 0 auto; /* Ensures proper alignment */
+    padding: 10px 0; /* Optional: Adds space around the header */
+}
+
+.centered-header h2 {
+    font-size: 2em; /* Adjust size for better visibility */
+    color: #5c3838; /* Optional: Aesthetic color */
+}
+
+.members {
+    display: flex;
+    justify-content: space-around; /* Distribute evenly across the page */
+    flex-wrap: wrap; /* Allow the images to wrap to the next line if there's not enough space */
+    gap: 50px; /* Add some space between the frames */
+    margin-top: 20px;
+}
+
+.member {
+    width: 150px; /* Adjust to desired size */
+    height: 150px; /* Make it square */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Ensures images are clipped to the circular shape */
+    border: 3px solid #751919; /* Optional: Add a border around each image */
+    box-shadow: 0 0 10px rgba(0, 255, 8, 0.3); /* Optional: Adds a shadow for effect */
+}
+
+.member img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Ensure the image scales correctly without distortion */
+}

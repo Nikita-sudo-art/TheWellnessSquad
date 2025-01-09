@@ -1,0 +1,328 @@
+/* Button Styles */
+.nav-buttons li a {
+    text-decoration: none;
+    color: rgb(84, 15, 15);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    background-color: #aba370db; /* Original background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.member img {
+    width: 150px; 
+    height: 150px; 
+    display: grid; 
+    gap: 20px; 
+    justify-content: center; 
+    border-radius: 50%; 
+    object-fit: cover; /*MAKES FIT PERFECT IN CIRCLE FROM BORDER-RADIUS*/
+    margin: 10px; /* SPACE B/W IMAGES*/
+}
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #A98467; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #904b4b; 
+}
+
+
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(76, 15, 15);
+    font-size: 18px;
+}
+
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/*BOX FOR MISSION AND VISION THINGY. THE . ID WILL MAKE IT APPLY TO ALL*/
+
+.box {
+    background-color: #ADC178;
+    color: rgb(93, 23, 23);
+    padding: 50px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+/*BACKGROUND COLOUR FOR MISSION AND VISION IN PAGE 1*/
+
+.mission {
+    background-color: #a9be63b1;
+}
+
+.vision {
+    background-color: #9cb058b1;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    color: rgb(82, 23, 23);
+    margin-top: 40px;
+}
+
+section h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/*THIS IS FOR PAGE 2 THE ONSCROLL EFFECT*/
+
+.event-box:hover {
+    opacity: 1;
+}
+
+body {
+    background-color: #ADC178;
+    transition: background-color 0.5s ease;
+}
+
+.event-box.blurred {
+    opacity: 0.3;
+}
+
+
+/*THIS IF OR THE MEDIA PAGE WITH THE IMAGES*/
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*THIS THINGAMABOB PUTS THE BLOCKS IN A GRID, 4BLOCKS; 1 FRACTION. GRID-TEMPLATE-COLUMN DEFINES THE COLUMNS OF A GRID*/
+    gap: 20px; /*HOW BIG THE GAP BETWEEN BLOCKS IS*/
+}
+
+.gallery-item { /*SHAPES THE BLOCK - MAKES IT RED, THE SIZE etc*/
+    width: 100%;
+    max-width: 250px;
+    background-color: #bc4749b7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #BC4749;
+}
+
+.gallery-item img { /*CSS FOR THE IMAGE INSIDE THE BLOCK THING*/   
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-description { /*SHAPING THE MARGIN, FONT SIZE AND COLOUR FOR THE TEXT BELOW EACH BLOCK.*/
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(91, 22, 22);
+}
+
+/*THIS IS FOR THE INITIATIVES*/
+.event-container {
+    display: flex; /*IF THE DISPLAY IS FLEX, IT'S A FLEXIBLE BOX LAYOUT WHICH CAN BE ALTERED AND ADJUSTED*/
+    flex-direction: column; /*FLEX-DIRECTION BASICALLY STRUCTURES THE FLEXBOXS. YOURS IS VERTICAL, SO COLUMN. DONT PUT ROW, IT LOOKS UGLY.*/
+    align-items: center; /*obvious*/
+    margin-top: 20px;
+    padding: 20px;
+}
+/*CSS FOR BOX - THE TEXT, THE ROUNDED EDGES (BORDER RADIUS) THE OPACITY, THE SPACE BETWEEN, THE WIDTH AND THE COLOUR*/
+.event-box {
+    background-color: #bc474999; 
+    color: rgb(88, 30, 30);
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.event-box:hover {
+    opacity: 1;
+}
+
+
+/*ONSCROLL THING. THIS MAKES THE BACKGROUND COLOUR BECOME MORE OPAQUE WHEN YOU SCROLL. THE 'EASE' MAKES IT 'EAS'-Y */
+body {
+    background-color: #57A7C9;
+    transition: background-color 0.5s ease;
+}
+
+.event-box { /*TRANSITION ONSCROLL*/
+    transition: opacity 0.5s ease-in-out;
+}
+
+.event-box.blurred { /*BLURS BOX*/
+    opacity: 0.3;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #57A7C9;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* ABCD SQUAD SECTION */
+.intro {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #bc4749a8;
+    color: rgb(83, 15, 15);
+    border-radius: 8px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* MISSION AND VISION PART*/
+/*THE HASHTAG IS FOR THE CLASS ATTRIBUTE AND ONLY APPLIES TO THIS PART NOT ALL THE MISSION-AND-VISION BOXES*/
+#mission-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 50px;
+}
+
+#mission h3,#vision h3 {
+    font-size: 24px;
+    color: rgb(82, 13, 13);
+    justify-content: space-between;
+    
+}
+
+#mission p, #vision p {
+    color: rgb(63, 8, 8);
+}
+#mission {
+    background-color: #b1c867b1;
+}
+
+#vision {
+    background-color: #9cb058b1;
+}
+
+/* FUTURE PROJECTS*/
+.future-projects {
+    background-color: #6A994E;
+    margin-top: 40px;
+    padding: 20px;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.future-projects h3 {
+    font-size: 24px;
+    color: rgb(71, 10, 10);
+}
+
+.future-projects p {
+    color: rgb(77, 15, 15);
+}
+
+/* Global Styles */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #6A994E;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #51885b;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-buttons {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-buttons li {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(76, 13, 13);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* CONTACT US */
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*MAKES THE LOGO ROUND, WITH 50% BORDER RADIUS THEREFORE CIRCLE*/
+/* ADDING THE -BIG IS NECESSARY OR ELSE ITLL JUST BE AN IMAGE*/
+
+.logo-big {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.contact-details { /*THIS IS FOR THE BOX BEHIIND THE CONTACT DETAILS*/
+    background-color: #3b815ac4;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.contact-details h2 {
+    font-size: 28px;
+    color: rgb(71, 13, 13);
+}
+
+.contact-details p {
+    color: rgb(69, 13, 13);
+}
+
+.centered-header {
+    text-align: center; /* PUTS TEXT IN MIDDLE */
+}
